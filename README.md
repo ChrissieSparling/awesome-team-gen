@@ -5,5 +5,10 @@ The items will be displayed in cards with employee's name, id, email, phone, and
 
 This application runs inside the terminal.
 
+
+# snippet
+see snippet folder for preview
+
 # links to the deployed site
 
+https://github.com/ChrissieSparling/awesome-team-gen
