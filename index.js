@@ -43,7 +43,7 @@ const continueBuilding = () => {
             type:'list',
             message:'What would you like to do?',
             name:'choice',
-            choices:['Add an engineer','Add an intern', 'Add an employee', 'Finish building team']
+            choices:['Add an engineer','Add an intern','Finish building team']
         }
     ).then( ans => {
         switch(ans.choice){
@@ -102,7 +102,8 @@ const continueBuilding = () => {
                     employees.push(myIntern);
                     continueBuilding();
                 });
-                case 'Add an employee':
+            break;
+            case 'Add an intern':
                 inquirer.prompt([
                     {
                         type:'input',
@@ -111,7 +112,7 @@ const continueBuilding = () => {
                     },
                     {
                         type:'input',
-                        message:"Please enter your employee ID.",
+                        message:"Please enter your employee's employee ID.",
                         name:'id'
                     },
                     {
@@ -121,7 +122,7 @@ const continueBuilding = () => {
                     },
                     {
                         type:'input',
-                        message:"Please enter the employee's role.",
+                        message:"Please enter your employee's role.",
                         name:'role'
                     }
                 ]).then( ans => {

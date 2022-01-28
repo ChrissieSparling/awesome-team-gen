@@ -9,6 +9,9 @@ This application runs inside the terminal.
 # snippet
 see snippet folder for preview
 
+# video
+https://watch.screencastify.com/v/I3dCa7F394wazQBOIAFe
+
 # links to the deployed site
 
 https://github.com/ChrissieSparling/awesome-team-gen
